@@ -26,6 +26,7 @@ html { height: 100%;}
 }
 
 #sidebar-wrapper {
+  text-align: left;
     z-index: 1000;
     left: 220px;
     width: 0;
@@ -98,10 +99,10 @@ html { height: 100%;}
 
 }
 .sidebar-nav li:hover{
-  background: rgba(58, 189, 145, 0.925) !important;
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* background: rgba(58, 189, 145, 0.925) !important; */
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
@@ -117,7 +118,7 @@ html { height: 100%;}
     display: block;
     color: #ddd;
     text-decoration: none;
-    padding: 10px 15px 10px 30px;    
+    padding: 5px 10px 10px 10px;    
 }
 
 .sidebar-nav li a:hover,
@@ -138,6 +139,7 @@ html { height: 100%;}
     display: inline-block;
 }
 .sidebar-brand {
+    text-align: left;
     height: 65px;
     position: relative;
     background:#212531;

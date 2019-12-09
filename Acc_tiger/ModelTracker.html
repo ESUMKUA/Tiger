@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css">
     <link rel="stylesheet"
         href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
 </head>
 
 <body >
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-nav-bar">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                 <a class="navbar-brand" href="https://www.tigeranalytics.com">
                     <img src="https://www.tigeranalytics.com/wp-content/uploads/logo.png">
                 </a>
@@ -47,15 +49,68 @@
             <ul class="nav sidebar-nav">
                 <div class="sidebar-header">
                     <div class="sidebar-brand">
+
                         
-                        
-                        <li>
-                            <a href="#team" >Model Tracker</a>
+                        <ul class="dropdown">
+                                <li class="dropdown">
+                                        <a href="#works"><span
+                                                class="caret">Model Tracker</span></a>
+                            
                                     <li class="dropdown">
-                                            <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Projects<span
-                                                    class="caret"></span></a>
-                            <ul >
-                                    <li class="dropdown">
+                                            <a href="#works" class="dropdown-toggle" data-toggle="dropdown"><span
+                                                    class="caret">Projects</span></a>
+                                    
+                            
+                                    <ul>
+                                            <li class="dropdown">
+                                                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Project 1<span
+                                                            class="caret"></span></a>
+                                                            <ul>
+                                                                    <li class="dropdown">
+                                                                            <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Model 1<span
+                                                                                    class="caret"></span></a>
+                                                                                    <ul>
+                                                                                            <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Version 0.1.1<span
+                                                                                                class="caret"></span></a>
+                                                                                                <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                                                                                                        <li><a id=#books href="">Experiment 1</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 2</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 3</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 4</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 5</a></li>
+                                                                                                </ul>
+                                                                                    </ul>
+                                                                    </li>
+                                                            </ul>
+                                            </li>
+                                    </ul>
+                                    <!-- Project 2 -->
+                                    <ul>
+                                            <li class="dropdown">
+                                                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Project 2<span
+                                                            class="caret"></span></a>
+                                                            <ul>
+                                                                    <li class="dropdown">
+                                                                            <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Model 1<span
+                                                                                    class="caret"></span></a>
+                                                                                    <ul>
+                                                                                            <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Version 0.1.1<span
+                                                                                                class="caret"></span></a>
+                                                                                                <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                                                                                                        <li><a id=#books href="">Experiment 1</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 2</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 3</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 4</a></li>
+                                                                                                        <li><a id=#books href="">Experiment 5</a></li>
+                                                                                                </ul>
+                                                                                    </ul>
+                                                                    </li>
+                                                            </ul>
+                                            </li>
+                                    </ul>
+
+<!--                                     
+                                                    <li class="dropdown">
                                             <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Project 1<span
                                                     class="caret"></span></a>
                                                     <ul class="dropdown">
@@ -115,7 +170,7 @@
 
                             </ul>
                                     
-                        
+                         -->
                     
             
         </nav>
@@ -130,8 +185,11 @@
             </button>
             <div class="container">
                     <h3 style="text-align: center;"> Experiments</h3>
-                    <div id="Experiment_id">Experiment Id : </div>
-                    <div id="Artifact_loc">Artifact Location : </div>
+                    <div>
+                            <p class="Experiment_id">Experiment Id : </p>
+                            <p class="Artifact_loc">The content is </p>
+                    </div>
+                    
                 <div class="row justify-content-end">
                         <div class="col-xs-4 input-group ">
                                 <input type="text" class="form-control" placeholder="Search Runs">
@@ -446,10 +504,17 @@
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"></script>
-    <script src="https://cdn.datatables.net/1.10.20/css/dataTables.foundation.min.css"></script>
+   
 
     <script>
+        $(document).ready(function() {
+    $.ajax({
+        url: "http://rest-service.guides.spring.io/greeting"
+    }).then(function(data) {
+       $('.Experiment_id').append(data.id);
+       
+    });
+});
         $(document).ready(function () {
             var trigger = $('.hamburger'),
                 overlay = $('.overlay'),
