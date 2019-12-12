@@ -1,0 +1,10 @@
+.b-border {
+    /* border-bottom: 1px solid black; */
+    background-image: linear-gradient(to left, #76a8da, white);
+    /* background-image: radial-gradient( #3f6082, #76a8da); */
+}
+
+.r-border {
+    border-right: 1px solid black;
+    overflow: scroll;
+}
