@@ -1,0 +1,205 @@
+{
+  "runs": [
+    {
+      "info": {
+        "run_uuid": "20b1195d6cbe4076bc62b326da2fe120",
+        "experiment_id": "3",
+        "user_id": "dinesh.velmuruga",
+        "status": "FINISHED",
+        "start_time": "1574610418916",
+        "end_time": "1574610443536",
+        "artifact_uri": "file:///D:/track/20b1195d6cbe4076bc62b326da2fe120/artifacts",
+        "lifecycle_stage": "active",
+        "run_id": "20b1195d6cbe4076bc62b326da2fe120"
+      },
+      "data": {
+        "metrics": [
+          {
+            "key": "lr_mape",
+            "value": 7.8401919358070975,
+            "timestamp": "1574610432802",
+            "step": "0"
+          },
+          {
+            "key": "lr_mape_13W",
+            "value": 4.312399501330514,
+            "timestamp": "1574610435368",
+            "step": "0"
+          },
+          {
+            "key": "lr_preds",
+            "value": 53703.903388009545,
+            "timestamp": "1574610437521",
+            "step": "0"
+          }
+        ],
+        "params": [
+          {
+            "key": "alpha",
+            "value": "0.5"
+          },
+          {
+            "key": "l1_ratio",
+            "value": "0.5"
+          }
+        ],
+        "tags": [
+          {
+            "key": "ml_algorithm",
+            "value": "EN"
+          },
+          {
+            "key": "mlflow.runName",
+            "value": "bby-precint-en-a5cabd00-0ed1-11ea-a8a2-8cec4bec5e2e"
+          },
+          {
+            "key": "mlflow.source.name",
+            "value": "BBY_Precinct_Company_Model.py"
+          },
+          {
+            "key": "mlflow.source.type",
+            "value": "LOCAL"
+          },
+          {
+            "key": "mlflow.user",
+            "value": "dinesh.velmuruga"
+          }
+        ]
+      }
+    },
+    {
+      "info": {
+        "run_uuid": "459e9103938b4fe0a98613987df7a246",
+        "experiment_id": "3",
+        "user_id": "dinesh.velmuruga",
+        "status": "FINISHED",
+        "start_time": "1574587860912",
+        "end_time": "1574587883209",
+        "artifact_uri": "file:///D:/track/459e9103938b4fe0a98613987df7a246/artifacts",
+        "lifecycle_stage": "active",
+        "run_id": "459e9103938b4fe0a98613987df7a246"
+      },
+      "data": {
+        "metrics": [
+          {
+            "key": "lr_mape",
+            "value": 7.86665976400077,
+            "timestamp": "1574587874290",
+            "step": "0"
+          },
+          {
+            "key": "lr_mape_13W",
+            "value": 4.47148184576276,
+            "timestamp": "1574587876518",
+            "step": "0"
+          },
+          {
+            "key": "lr_preds",
+            "value": 53666.99348654279,
+            "timestamp": "1574587878648",
+            "step": "0"
+          }
+        ],
+        "params": [
+          {
+            "key": "alpha",
+            "value": "0.5"
+          },
+          {
+            "key": "l1_ratio",
+            "value": "0.5"
+          }
+        ],
+        "tags": [
+          {
+            "key": "ml_algorithm",
+            "value": "LR"
+          },
+          {
+            "key": "mlflow.runName",
+            "value": "bby-precint-lr-1fb88bd8-0e9d-11ea-84f2-8cec4bec5e2e"
+          },
+          {
+            "key": "mlflow.source.name",
+            "value": "BBY_Precinct_Company_Model.py"
+          },
+          {
+            "key": "mlflow.source.type",
+            "value": "LOCAL"
+          },
+          {
+            "key": "mlflow.user",
+            "value": "dinesh.velmuruga"
+          }
+        ]
+      }
+    },
+    {
+      "info": {
+        "run_uuid": "e0b59d4e3a29473f9f3d7c1ee1f12763",
+        "experiment_id": "3",
+        "user_id": "dinesh.velmuruga",
+        "status": "FINISHED",
+        "start_time": "1574587517200",
+        "end_time": "1574587539705",
+        "artifact_uri": "file:///D:/track/e0b59d4e3a29473f9f3d7c1ee1f12763/artifacts",
+        "lifecycle_stage": "active",
+        "run_id": "e0b59d4e3a29473f9f3d7c1ee1f12763"
+      },
+      "data": {
+        "metrics": [
+          {
+            "key": "lr_mape",
+            "value": 7.86665976400077,
+            "timestamp": "1574587529650",
+            "step": "0"
+          },
+          {
+            "key": "lr_mape_13W",
+            "value": 4.47148184576276,
+            "timestamp": "1574587531839",
+            "step": "0"
+          },
+          {
+            "key": "lr_preds",
+            "value": 53666.99348654279,
+            "timestamp": "1574587534849",
+            "step": "0"
+          }
+        ],
+        "params": [
+          {
+            "key": "alpha",
+            "value": "0.5"
+          },
+          {
+            "key": "l1_ratio",
+            "value": "0.5"
+          }
+        ],
+        "tags": [
+          {
+            "key": "ml_algorithm",
+            "value": "LR"
+          },
+          {
+            "key": "mlflow.runName",
+            "value": "bby-precint-lr-5369f9be-0e9c-11ea-b0ca-8cec4bec5e2e"
+          },
+          {
+            "key": "mlflow.source.name",
+            "value": "BBY_Precinct_Company_Model.py"
+          },
+          {
+            "key": "mlflow.source.type",
+            "value": "LOCAL"
+          },
+          {
+            "key": "mlflow.user",
+            "value": "dinesh.velmuruga"
+          }
+        ]
+      }
+    }
+  ]
+}
