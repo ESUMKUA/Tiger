@@ -2661,12 +2661,12 @@ select {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #1779ba;
+  background-color: yellowgreen;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #14679e;
+    background-color: yellowgreen;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -2680,10 +2680,10 @@ select {
     margin-right: 0;
     margin-left: 0; }
   .button.primary {
-    background-color: #1779ba;
+    background-color: yellowgreen;
     color: #fefefe; }
     .button.primary:hover, .button.primary:focus {
-      background-color: #126195;
+      background-color: yellowgreen;
       color: #fefefe; }
   .button.secondary {
     background-color: #767676;
@@ -3110,6 +3110,8 @@ a.button:hover, a.button:focus {
 
 .button-group {
   margin-bottom: 1rem;
+  border-radius: 10px;
+  margin-top: 1.5em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3138,6 +3140,7 @@ a.button:hover, a.button:focus {
     margin-right: 1px;
     margin-bottom: 1px;
     font-size: 0.9rem;
+    border-radius: 10px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
@@ -3156,10 +3159,10 @@ a.button:hover, a.button:focus {
         -ms-flex: 1 1 0px;
             flex: 1 1 0px; }
   .button-group.primary .button {
-    background-color: #1779ba;
+    background-color: yellowgreen;
     color: #fefefe; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background-color: #126195;
+      background-color: yellowgreen;
       color: #fefefe; }
   .button-group.secondary .button {
     background-color: #767676;
