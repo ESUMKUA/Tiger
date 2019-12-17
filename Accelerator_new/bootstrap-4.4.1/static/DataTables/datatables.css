@@ -2369,12 +2369,12 @@ textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  height: 2.4375rem;
+  height: 1.9rem;
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
-  background-color: #fefefe;
+  border-radius: 10px;
+  background-color: #dee2e6;
   -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
           box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
@@ -2429,11 +2429,12 @@ textarea[readonly] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border-radius: 0; }
+  border-radius: 10px; }
 
 input[type='search'] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+        border-radius: 10px; }
 
 [type='file'],
 [type='checkbox'],
@@ -2576,7 +2577,7 @@ legend {
 
 select {
   height: 2.4375rem;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding: 10px;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -2661,13 +2662,13 @@ select {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: yellowgreen;
-  color: #fefefe; }
+  background-color: #dee2e6;
+  color: #0f0a0a; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: yellowgreen;
-    color: #fefefe; }
+    background-color: #dee2e6;
+    color: #0c0b0b; }
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
@@ -2680,10 +2681,10 @@ select {
     margin-right: 0;
     margin-left: 0; }
   .button.primary {
-    background-color: yellowgreen;
+    background-color: #dee2e6;
     color: #fefefe; }
     .button.primary:hover, .button.primary:focus {
-      background-color: yellowgreen;
+      background-color: #6e95bb;
       color: #fefefe; }
   .button.secondary {
     background-color: #767676;
@@ -3139,7 +3140,7 @@ a.button:hover, a.button:focus {
     margin: 0;
     margin-right: 1px;
     margin-bottom: 1px;
-    font-size: 0.9rem;
+    font-size: 12px;
     border-radius: 10px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
