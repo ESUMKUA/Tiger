@@ -50,20 +50,20 @@
                 <ul class="nav flex-column flex-nowrap overflow-hidden">
                     <li class="text-center">
                         <img src="static\img\tracker.png" style="width: 140;height: 50;" alt="">
-                        <h6>Model Tacker</h6>
+                        <h6 style="font-family: serif;"><em>Tracking Makes Simpler</em></h6>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link collapsed text-truncate" href="#submenu1" data-toggle="collapse"
                             data-target="#submenu1">
                             <!-- <h5><span>Project : Ventas</span></h5> -->
-                            <span class="text-dark"><i class="fa fa-cubes" aria-hidden="true"></i> Project 1</span>
+                            <h6><span class="text-dark"></i> Project 1</span></h6>
                         </a>
                         <div class="collapse" id="submenu1" aria-expanded="false">
                             <ul class="flex-column pl-2 nav">
                                 <li class="nav-item">
                                     <a class="nav-link collapsed py-1" href="#submenu1sub1" data-toggle="collapse"
-                                        data-target="#submenu1sub1"><span><i class="fa fa-cubes" aria-hidden="true"></i>
+                                        data-target="#submenu1sub1"><span>
                                             Model 1</span></a>
                                     <div class="collapse" id="submenu1sub1" aria-expanded="false">
                                         <ul class="flex-column nav pl-4">
@@ -88,7 +88,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link collapsed py-1" href="#submenu1sub2" data-toggle="collapse"
-                                        data-target="#submenu1sub2"><span><i class="fa fa-cubes" aria-hidden="true"></i>
+                                        data-target="#submenu1sub2"><span>
                                             Model 2</span></a>
                                     <div class="collapse" id="submenu1sub2" aria-expanded="false">
                                         <ul class="flex-column nav pl-4">
@@ -118,13 +118,13 @@
                     <li class="nav-item">
                         <a class="nav-link collapsed text-truncate" href="#submenu2" data-toggle="collapse"
                             data-target="#submenu2">
-                            <span class="text-dark"><i class="fa fa-cubes" aria-hidden="true"></i> Project 2</span>
+                            <h6><span class="text-dark"></i> Project 2</span></h6>
                         </a>
                         <div class="collapse" id="submenu2" aria-expanded="false">
                             <ul class="flex-column pl-2 nav">
                                 <li class="nav-item">
                                     <a class="nav-link collapsed py-1" href="#submenu2sub1" data-toggle="collapse"
-                                        data-target="#submenu2sub1"><span><i class="fa fa-cubes" aria-hidden="true"></i>
+                                        data-target="#submenu2sub1"><span>
                                             Model 1</span></a>
                                     <div class="collapse" id="submenu2sub1" aria-expanded="false">
                                         <ul class="flex-column nav pl-4">
@@ -149,7 +149,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link collapsed py-1" href="#submenu2sub2" data-toggle="collapse"
-                                        data-target="#submenu2sub2"><span><i class="fa fa-cubes" aria-hidden="true"></i>
+                                        data-target="#submenu2sub2"><span>
                                             Model 2</span></a>
                                     <div class="collapse" id="submenu2sub2" aria-expanded="false">
                                         <ul class="flex-column nav pl-4">
@@ -181,6 +181,22 @@
             <!-- Datatables -->
 
             <div class="col-10 bg-light">
+                <div class="row">
+                    <div class="col-md-12">
+                       <h3 style="text-align: center;">Name</h3> 
+                    </div>
+                   
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                       <h5>Experiment Id : {{Experiment_id}}</h5> 
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Artifact Location : {{artifact_uri}}</h5> 
+                    </div>
+
+                </div>
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-9">
@@ -188,7 +204,7 @@
                           </div>
                           <div class="form-group col-md-1">
                             <!-- <label for="inputState">State</label> -->
-                            <select id="inputState" class="form-control">
+                            <select class="form-control">
                               <option selected>Active</option>
                               <option>Deleted</option>
                             </select>

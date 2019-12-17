@@ -2160,7 +2160,8 @@ h6, .h6 {
   h4, .h4 {
     font-size: 1.5625rem; }
   h5, .h5 {
-    font-size: 1.25rem; }
+    font-size: 14px;
+  color: #000; }
   h6, .h6 {
     font-size: 1rem; } }
 
@@ -2370,7 +2371,7 @@ textarea {
           box-sizing: border-box;
   width: 100%;
   height: 1.9rem;
-  margin: 0 0 1rem;
+  margin: 0 0 0;
   padding: 0.5rem;
   border: 1px solid #cacaca;
   border-radius: 10px;
@@ -5858,6 +5859,7 @@ div.dataTables_wrapper div.dataTables_length label {
 div.dataTables_wrapper div.dataTables_length select {
   width: 80px;
   height:35px;
+  margin-top: 8px;
   margin-bottom: 0;
   border-radius: 10px;
   padding-bottom: 10px;
@@ -5871,7 +5873,7 @@ div.dataTables_wrapper div.dataTables_filter label {
 div.dataTables_wrapper div.dataTables_filter input {
   display: inline-block !important;
   width: auto !important;
-  margin-top: 20px;
+  margin-top: 8px;
   margin-right: 20px;
   border-radius: 10px;
   padding-bottom: 10px;

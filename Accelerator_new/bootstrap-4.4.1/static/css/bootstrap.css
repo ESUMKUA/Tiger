@@ -1240,7 +1240,7 @@ pre code {
         -ms-flex: 0 0 8.333333%;
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
-        margin-top: 40px;
+        margin-top: 20px;
         border-radius: 10px;
         text-align: center;
         color: #dee2e6;
@@ -1277,6 +1277,9 @@ pre code {
         flex: 0 0 50%;
         max-width: 50%;
         color: #dee2e6;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align:left;
     }
     .col-md-7 {
         -ms-flex: 0 0 58.333333%;
@@ -1293,7 +1296,7 @@ pre code {
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
         max-width: 75%;
-        margin-top: 40px;
+        margin-top: 20px;
         border-radius: 10px;
         text-align: center;
         color: #dee2e6;
@@ -2234,6 +2237,8 @@ pre code {
 select.form-control:focus::-ms-value {
     color: #495057;
     background-color: #fff;
+    width: 100%;
+
 }
 
 .form-control-file,
